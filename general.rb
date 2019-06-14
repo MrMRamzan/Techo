@@ -1,0 +1,15 @@
+GENERAL
+    - Opinionated Framework (Has spacific way of development e.g Rails, .NET,  Laravel)
+    - Unopinionated Framework (Has no general way of development e.g Expressjs)
+    - Webhooks (http ccaallbacks at certain events)
+    - Trigers
+    - CSRF (cross site request forgery-> unauthorized cmd from trusted user, session riding, onstate change request)
+    - XSS (cross site scripting)
+    - Payloads
+    - AWS (Amazon web Services)
+        - VOD (video on demand)->media cache files
+        - Media Cache (cache only requested content e.g some part of video viewed by user)
+        - EC2 instances (Elastic compute cloud)-> Stable computing capacity - virtual server
+        - Buckets (drives)
+        - 
+    - Elastic Search  (clusters, indeces)->open documents in json format

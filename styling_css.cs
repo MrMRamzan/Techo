@@ -1,0 +1,60 @@
+BOCTSTRAP
+    - Typography
+    - Tables
+    - Jumbotrone
+    - Alert
+    - Badges/Labes
+    - Glyphicons
+    - Paper
+    - Panels
+    - Collapse
+    - Navbar
+    - GridSystem
+    - Images
+    - Wells
+    - Button and Buttongroups
+    - Progress bar
+    - Pagination
+    - List group
+    - Drop downs
+    - Tabs/Pills
+    - ADVANCED
+        - Forms
+        - Inputs
+        - Media Objects
+        - Carousel (slider, animation control, caption)
+        - Modal
+        - Tooltip
+        - Popover
+        - Scrollspy
+        - Affix
+        - Filters
+        - search select
+
+CSS
+    - Classes
+    - Ids
+    - Media quries
+    - Cominators (child, sibling, descendents)
+    - Opacity
+    - Hover
+    - Attr_selector
+    - Conters
+    - rounded corrners
+    - bording
+    - shodows and Cards
+    - Transforms and Transitions
+    - Flex box
+    - Gradients
+    - UNITS
+        - Absolute
+            - cm
+            - mm
+            - 1 in = 96 px = 2.54 cm (px change from device to device)
+        - Relative
+            - em (relative to font-size)
+            - ex (rel to x-height of font)
+            - ch (rel to width of zero)
+            - rem (rel to font-size of root element)
+            - vw (rel to 1% of width of view port)
+            - vh (rel to 1% of height of view port)
