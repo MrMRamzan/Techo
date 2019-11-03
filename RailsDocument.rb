@@ -15,7 +15,7 @@ RUBY ON RAILS
         - Single level inheritance (multilevel inheritance gained by modules) 
         - Debugging using keyword "byebug"
         - getter , setter (attr_reader,  attr_writer) combined_word->attr_accessor
-        - Yield keyword used to call modules
+        - Yield keyword used to call modules (in context of layouts)
         - Migrations
         - Callbacks (Callbacks are model level helper methods)
         	- During the object life cycle Callbacks are the hooks to perform Action/ trigger logic during object life cycle
@@ -64,6 +64,11 @@ RUBY ON RAILS
             - Action Controller (Rendering, redirection)
             - Action dispatcher (cookies, sessions,  request  methods, after parsing request methods)
             - Action Views (rhtml, rxml)
+                - Templates(erb, jbuilder, builder)
+                - Partials
+                - layouts
+                - render (Keywaord used to send response is specific format)
+                - redirect_to(generate a new url request)
         - Active Reccord (ORM)
         - Active Support (Extensions, Libraries, Testing)
         - VCR gem (save http response in file known as stabbing)
