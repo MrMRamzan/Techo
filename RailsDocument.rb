@@ -57,8 +57,8 @@ RUBY ON RAILS
         	- has_many :through (n-to-n relationship)
         	- has_and_belongs_to_many (n-to-n relationship)
         	- Polymorphic association (1-to-n relationship, Name_id, Name_type columns created)
-        	- Single Table Inheritance STI
-        	- Bidirectional associations
+        	- Single Table Inheritance STI (One supper class inherited in sub class -> only table e.g. vehicle and car, motorcycle, cycle)
+        	- Bidirectional associations (Define relationship in both models )
         - Action Mailer
         - Action Pack
             - Action Controller (Rendering, redirection)
@@ -66,6 +66,7 @@ RUBY ON RAILS
             - Action Views (rhtml, rxml)
         - Active Reccord (ORM)
         - Active Support (Extensions, Libraries, Testing)
+        - Railties (Internal engine of rails, reading of Configurations and interconnection of parts like Active Record and Action Controller, these are the abstract classes e.g. Active Record)
         - VCR gem (save http response in file known as stabbing)
         - Mix-in (create modules and include in class instead of inheritance)
         - Concerns (methods without routing should be kept in concerns, one concern aganist a model)   
@@ -81,7 +82,7 @@ RUBY ON RAILS
         - Jobs
         - Scopes
         - ** `mutliple returns from a ,method` unique feature of a language
-        - side kick, reddis gems -> storage for Jobs
+        - sidekick, reddis gems -> storage for Jobs
         - static methods (define with self keyword) class level methods
         - Object level methods ( called with ObjectName.methodName)
         - Elastic Search  (clusters, indeces)->open documents in json format
